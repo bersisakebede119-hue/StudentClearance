@@ -1,0 +1,3 @@
+<?php require_once __DIR__.'/auth.php'; $pageTitle=$pageTitle??'Student Clearance'; ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?=h($pageTitle)?></title><link rel="stylesheet" href="assets/style.css"></head><body>
+<header><a class="brand" href="dashboard.php">🎓 Student Clearance</a><?php if(!empty($_SESSION['user'])):?><nav><?=h($_SESSION['user']['name'])?> · <?=h($_SESSION['user']['role'])?> <a href="dashboard.php">Dashboard</a><a href="logout.php">Logout</a></nav><?php endif;?></header><main class="container">

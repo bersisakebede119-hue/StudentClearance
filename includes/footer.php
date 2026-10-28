@@ -1,0 +1,1 @@
+</main><footer>University Student Clearance Management System · Educational prototype</footer></body></html>
